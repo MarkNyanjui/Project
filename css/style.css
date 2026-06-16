@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+    --bg-dark-primary: #0f172a;    /* Deep slate background */
+    --bg-dark-secondary: #1e293b;  /* Dark navbar slate */
+    --color-accent: #38bdf8;       /* Tech blue highlight */
+    --color-text-muted: #94a3b8;   /* Soft gray text */
+    --font-primary: 'Inter', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--bg-dark-primary);
+    color: #f8fafc;
+}
+
+.bg-dark-custom {
+    background-color: var(--bg-dark-secondary) !important;
+}
+
+.text-accent {
+    color: var(--color-accent) !important;
+}
