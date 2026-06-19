@@ -35,11 +35,32 @@
                 <h1 class="fw-bold">Get In <span class="text-fitness-orange">Touch</span></h1>
                 <p class="lead text-muted">Ready to start? Send us a question or visit our local club headquarters.</p>
             </div>
-
-            <div class="row g-5">
                 <div class="col-lg-7" id="formWrapperContainer">
-=                </div>
-
+                    <form id="contactGymForm" class="bg-white p-4 border rounded shadow-sm">
+                        <div class="mb-3">
+                            <label for="userName" class="form-label fw-bold small text-secondary">Full Name</label>
+                            <input type="text" class="form-control" id="userName" placeholder="Your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="userEmail" class="form-label fw-bold small text-secondary">Email Address</label>
+                            <input type="email" class="form-control" id="userEmail" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="classSelect" class="form-label fw-bold small text-secondary">Interested In</label>
+                            <select class="form-select" id="classSelect">
+                                <option selected>Choose a fitness track...</option>
+                                <option value="strength">Strength Training Foundations</option>
+                                <option value="yoga">Vinyasa Flow Yoga</option>
+                                <option value="spin">Apex Spin Cycling</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userMsg" class="form-label fw-bold small text-secondary">Your Message</label>
+                            <textarea class="form-control" id="userMsg" rows="4" placeholder="Tell us about your fitness goals..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 py-2fw-bold">Send Inquiry</button>
+                    </form>
+                </div>
                 <div class="col-lg-5">
                 </div>
             </div>
