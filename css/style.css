@@ -1,20 +1,42 @@
+/* ======================================
+   Global Page Styling
+   Sets the default background and text colours used across the website.
+====================================== */
 body {
     background-color: #fcfcfc; 
     color: #2b2d42;            
 }
 
+/* ======================================
+   Custom Brand Colour
+   Applies the ApexFitness orange theme to highlighted text.
+====================================== */
 .text-fitness-orange {
     color: #f77f00; 
 }
 
+/* ======================================
+   Footer Navigation
+   Highlights footer links when the user hovers over them.
+====================================== */
 .footer-links a:hover {
     text-decoration: underline !important;
     color: #f77f00 !important;
 }
+
+/* ======================================
+   Form Input Focus
+   Changes the border and glow colour when an input field is selected.
+====================================== */
 .form-control:focus, .form-select:focus {
     border-color: #f77f00 !important;
     box-shadow: 0 0 0 0.25rem rgba(247, 127, 0, 0.25) !important;
 }
+
+/* ======================================
+   Contact Form
+   Adds a decorative top border to distinguish the contact form.
+====================================== */
 #contactGymForm {
     border-top: 4px solid #212529 !important;
 }

@@ -32,13 +32,14 @@
 
     <main class="py-5">
         <div class="container my-4" style="max-width: 800px;">
+            <!-- Introduces the FAQ page and explains what visitors can find here -->
             <div class="text-center mb-5">
                 <h1 class="fw-bold">Frequently Asked <span class="text-fitness-orange">Questions</span></h1>
                 <p class="lead text-muted">Everything you need to know about our memberships, facilities, and coaching policies.</p>
             </div>
-
+            <!-- Uses a Bootstrap accordion so users can expand one question at a time without cluttering the page -->
             <div class="accordion accordion-flush shadow-sm border rounded bg-white p-2" id="mainGymFAQ">
-                <!-- Item 1: Cancellation -->
+                <!-- Each accordion item contains one question and its corresponding answer -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed small fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
@@ -52,7 +53,6 @@
                     </div>
                 </div>
 
-                <!-- Item 2: Hidden Fees -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed small fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
@@ -65,7 +65,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Item 3: Beginners -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed small fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
@@ -79,7 +78,6 @@
                     </div>
                 </div>
 
-                <!-- Item 4: Booking Requirements -->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed small fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
@@ -93,7 +91,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Support Footer Panel -->
+
+            <!-- Gives users another way to get help if their question is not listed above -->
             <div class="mt-5 p-4 rounded bg-light border border-1 text-center shadow-sm">
                 <h5 class="fw-bold text-dark mb-2 h6">Still Have Questions?</h5>
                 <p class="text-muted small mb-3">If your specific layout inquiry or account question isn't answered here, send our admin team a direct message line.</p>
@@ -135,6 +134,7 @@
         </div>
     </footer>
 
+    <!-- Loads Bootstrap's JavaScript so the accordion can expand and collapse -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
