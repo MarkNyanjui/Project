@@ -19,13 +19,13 @@ ApexFitness is a responsive fitness website developed using HTML, CSS, JavaScrip
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript
 - Bootstrap 5.3
 
 ## Project Structure
 
+```text
 ApexFitness/
-│
 ├── index.html
 ├── about.html
 ├── blog.html
@@ -35,7 +35,7 @@ ApexFitness/
 ├── pricing.html
 ├── schedule.html
 ├── trainers.html
-├── ReadME.md
+├── README.md
 │
 ├── css/
 │   └── style.css
@@ -43,16 +43,15 @@ ApexFitness/
 ├── js/
 │   └── app.js
 │
-├── images/
-    └──David.webp
-    └──Elena.webp
-    └──Gym.webp
-    └──Humphrey.webp
-    └──John.webp
-    └──Linda.webp
-    └──Maya.webp
-
-
+└── images/
+    ├── David.webp
+    ├── Elena.webp
+    ├── Gym.webp
+    ├── Humphrey.webp
+    ├── John.webp
+    ├── Linda.webp
+    └── Maya.webp
+```
 
 ## Installation
 
